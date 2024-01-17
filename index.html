@@ -11,6 +11,7 @@
     <meta property="og:title" content="Donate Charity">
     <meta property="og:description" content="Donate Portal Charity">
     <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     <div class="default curve-container mt-2">
 
         <!-- Section Header-->
-        <div class="top-section">
+        <div class="top-section pb-5">
             <!-- Logo-->
             <div class="store-logo mb-2 mt-2 align-content-around">
                 <span class=" rounded-pill p-1">
@@ -32,32 +33,11 @@
                 <h6 class="mb-0 text-center fw-bold">Be a charity supporter</h6>
             </span>
 
-            <!-- Customer Title And Info -->
-            <div class="terminal-section ps-2 pe-2 mt-4">
-                <div>
-                    <h6 class="fw-bold mb-0">Imam Zaman Helping Association </h6>
-                </div>
-            </div>
-
-            <div class="w-100">
-                <div class="divider mb-3"></div>
-            </div>
-
-            <div class="mb-4">
-                <span class="text-center text-secondary-light description-section">
-                    <div class="my-0 ps-3 pe-3">
-                        <br>
-                    </div>
-                </span>
-            </div>
         </div>
 
         <!-- Section Select Fee -->
         <div class="curve-card">
-            <!-- Curve Section -->
-            <span class="curve-section">
-            <img class="curve-section-logo" style="margin-top: -1px;" alt="curve-logo" src="assets/img/curve-logo.png">
-            </span>
+
             <!-- Form -->
             <div class="form-section mt-2 mt-sm-2">
                 <form novalidate="" action="#" method="get" class="d-flex flex-column av-invalid">
@@ -117,13 +97,23 @@
 
                         <!-- Custom fee -->
                         <div class="d-flex justify-content-center p-0 mt-3 col-md-10">
+                            <!-- OLD -->
+<!--                            <div class="group ms-2 me-2 mb-3 flex-column d-flex justify-content-center form-group">-->
+<!--                                <input name="customFee" id="customFee" type="text" class="is-untouched is-pristine av-invalid form-control" value="">-->
+<!--                                <label class="px-2">Enter the desired amount</label>-->
+<!--                                <div class="valid-feedback">-->
+<!--                                    <small class="text-danger">Invalid price</small>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            <!-- NEW -->
                             <div class="group ms-2 me-2 mb-3 flex-column d-flex justify-content-center form-group">
-                                <input name="customFee" id="customFee" type="text" class="is-untouched is-pristine av-invalid form-control" value="">
-                                <label class="px-2">Enter the desired amount</label>
-                                <div class="valid-feedback">
-                                    <small class="text-danger">Invalid price</small>
+                                <div class="input-block">
+                                    <input type="text" class="w-100" name="input-text" id="input-text" required spellcheck="false">
+                                    <span class="placeholder"> Enter the desired amount </span>
                                 </div>
                             </div>
+
+
                         </div>
 
 
@@ -140,9 +130,9 @@
             </div>
             <!-- Links-->
             <span class="logo-type-section mt-3 mb-3">
-                <a target="_blank" href="/privacyPolicy" style="color: #636875;text-decoration: none">Privacy Policy</a>
+                <a target="_blank" href="privacyPolicy.html" style="color: #636875;text-decoration: none">Privacy Policy</a>
                 <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-                <a target="_blank" href="/termOfUse" style="color: #636875;text-decoration: none">Term of Use</a>
+                <a target="_blank" href="termOfUse.html" style="color: #636875;text-decoration: none">Term of Use</a>
             </span>
         </div>
 
